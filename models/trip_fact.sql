@@ -3,7 +3,7 @@ WITH
 trips AS (
 select
     ride_id,
-    rideable_type,
+    --rideable_type,
     DATE(to_timestamp(started_at)) AS trip_date,
     start_station_id,
     end_station_id,
